@@ -6,7 +6,8 @@
     grid-template-columns: repeat(6, 1fr);
 grid-template-rows: repeat(2, 1fr);
 outline: solid 10px black;
-border-radius: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
 }
 .item:nth-child(1) {
     grid-area: 1 / 1 / 2 / 4;
